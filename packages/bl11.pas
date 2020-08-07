@@ -31,11 +31,12 @@ implementation
         BASE_1o_v1[0][3] := 'ID';
 
         BASE_1o_v1[0][4] := 'id-arv';
+        BASE_1o_v1[1][4] := '1';
         
 
         cont := 0;
 
-        assign(CAD0, 'PRODUTO'+BASE_1o_v1[1][4]+'-BASE.DAT');
+        assign(CAD0, '../db-pascal/PRODUTO'+BASE_1o_v1[1][4]+'-BASE.DAT');
         rewrite(CAD0); 
         
         repeat

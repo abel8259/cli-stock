@@ -10,8 +10,6 @@
 		
        
 
-		   
-
 		type rec0 =
 		         record
 		         s_0: integer;
@@ -40,7 +38,7 @@
 
         cont := 0;
         
-		Assign(CAD0, 'PRODUTO'+BASE_1o_v1[1][4]+'-BASE.DAT');
+		assign(CAD0, '../db-pascal/PRODUTO'+BASE_1o_v1[1][4]+'-BASE.DAT');
 		
 		reset(CAD0);
 		read(CAD0,cadastro_0);
